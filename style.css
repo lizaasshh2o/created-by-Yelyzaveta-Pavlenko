@@ -74,3 +74,54 @@ footer {
 .about-text {
   flex: 1;
 }
+/* --- ANALYTICAL REPORT DESIGN --- */
+
+.section-box {
+  background: #ffffff;
+  border-left: 6px solid var(--blue);
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.section-title span {
+  font-size: 26px;
+}
+
+.section-title h2 {
+  margin: 0;
+  color: var(--dark-blue);
+}
+
+/* Tables */
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.report-table th {
+  background: var(--blue);
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.report-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  background: #f9fcff;
+}
+
+.report-table tr:hover td {
+  background: var(--very-light);
+}

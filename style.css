@@ -1,0 +1,60 @@
+:root {
+  --dark-blue: #1b2357;
+  --blue: #1f66c1;
+  --light-blue: #9fd6f7;
+  --very-light: #e9f6fb;
+  --purple: #6f5a8a;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--very-light);
+  color: var(--dark-blue);
+}
+
+header {
+  background: var(--dark-blue);
+  padding: 15px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: var(--light-blue);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: var(--blue);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: var(--purple);
+  color: white;
+  margin-top: 40px;
+}

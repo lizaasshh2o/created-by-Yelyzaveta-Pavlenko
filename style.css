@@ -125,3 +125,83 @@ footer {
 .report-table tr:hover td {
   background: var(--very-light);
 }
+/* ===== REPORT PAGE FINAL DESIGN ===== */
+
+.section-box {
+  background: #ffffff;
+  border-left: 6px solid var(--blue);
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.section-title span {
+  font-size: 28px;
+}
+
+.section-title h2 {
+  margin: 0;
+  color: var(--dark-blue);
+}
+
+/* Tables */
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.report-table th {
+  background: var(--blue);
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.report-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  background: #f9fcff;
+}
+
+.report-table tr:hover td {
+  background: var(--very-light);
+}
+
+/* Mobile adaptation */
+
+@media (max-width: 768px) {
+  .section-box {
+    padding: 18px;
+  }
+
+  .section-title span {
+    font-size: 24px;
+  }
+
+  .report-table th,
+  .report-table td {
+    font-size: 14px;
+  }
+}

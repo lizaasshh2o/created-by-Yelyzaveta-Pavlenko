@@ -58,3 +58,19 @@ footer {
   color: white;
   margin-top: 40px;
 }
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.about-text {
+  flex: 1;
+}
